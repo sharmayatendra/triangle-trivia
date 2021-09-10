@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>triangle-quiz</title>
+</head>
+<body> 
+        <nav>
+            <a href="index.html">Is Triangle</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="hypotenuse.html">Hypotenuse Calculator</a>
+            <a href="area.html">Area Calculator</a>
+        </nav>
+    <h1>Traingle Quiz</h1>
+    <form id="quiz-form">
+        <div class="quiz-container">
+            <p> What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label><input type="radio" value="45°" name="question1">45°</label>
+            <label><input type="radio" value="90°" name="question1">90°</label>
+            <label><input type="radio" value="60°" name="question1">60°</label>
+        </div>
+
+        <div class="quiz-container">
+            <p>If one angle of triangle is 90°.What it is called as?</p>
+            <label><input type="radio" value="right angle triangle" name="question2">right angle triangle</label>
+            <label><input type="radio" value="acute angle triangle" name="question2">acute angle triangle</label>
+            <label><input type="radio" value="obtuse angle triangle" name="question2">obtuse angle triangle</label>
+        </div>
+
+        <div class="quiz-container">
+            <p>All angles of a triangle are equal in:</p>
+            <label> <input type="radio" value="scalene triangle" name="question3">scalene triangle</label>
+            <label><input type="radio" value="isosceles triangle" name="question3">isosceles triangle</label>
+            <label><input type="radio" value="equilateral triangle" name="question3">equilateral triangle</label>
+        </div>
+
+        <div class="quiz-container">
+            <p>Two sides of a triangle are equal in:</p>
+            <label><input type="radio" value="scalene triangle" name="question4">scalene triangle</label>
+            <label><input type="radio" value="isosceles triangle" name="question4">isosceles triangle</label>
+            <label><input type="radio" value="equilateral triangle" name="question4">equilateral triangle</label>
+        </div>
+
+        <div class="quiz-container">
+            <p>The perimeter of a traingle with sides 3cm, 4cm, 5cm respectively:</p>
+            <label><input type="radio" value="10cm" name="question5">10cm</label>
+            <label><input type="radio" value="12cm" name="question5">12cm</label>
+            <label><input type="radio" value="15cm" name="question5">15cm</label>
+        </div>
+
+        <div class="quiz-container">
+            <p>Which one of below is famous formula to calculate the area of traingle?</p>
+            <label><input type="radio" value="Heron's formula" name="question6">Heron's formula</label>
+            <label><input type="radio" value="Hero formula" name="question6">Hero formula</label>
+            <label><input type="radio" value="Heroine formula" name="question6">Heroine formula</label>
+        </div>
+
+        <div class="quiz-container">
+            <p>If perimeter of isosceles traingle is 10cm & two equal sides are 3cm each.Length of third side is:</p>
+            <label><input type="radio" value="3cm" name="question7">3cm</label>
+            <label><input type="radio" value="4cm" name="question7">4cm</label>
+            <label><input type="radio" value="5cm" name="question7">5cm</label>
+        </div>
+    </form>
+    <button type="submit" id="submit-btn">Submit</button>
+    <div id="output-div"></div>
+    <script src="quiz.js"></script>
+</body>
+</html>
