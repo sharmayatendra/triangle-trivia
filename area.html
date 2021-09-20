@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>triangle-area</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
@@ -13,14 +14,16 @@
         <a href="hypotenuse.html">Hypotenuse Calculator</a>
         <a href="area.html">Area Calculator</a>
     </nav>
+    <div class="container">
     <h1>Area of Triangle</h1>
-    <p>area = 1/2(base*height)</p>
-    <label for="">base:</label>
+    <p class="area">area = 1/2(base*height)</p>
+    <label for="side-input">base:</label>
     <input type="number" class="side-input">
-    <label for="">height:</label>
+    <label for="side-input">height:</label>
     <input type="number" class="side-input">
     <button id="area-btn">Calculate Area</button>
     <div id="output-div"></div>
+    </div>
     <script src="area.js"></script>
 </body>
     
