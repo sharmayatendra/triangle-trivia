@@ -9,10 +9,6 @@ function calculateArea() {
         const area = 1/2 * Number(sides[0].value) * Number(sides[1].value);
         outputDiv.innerText = "area of triangle is " + area;
     }
-
-    // const area = 0.5 * ();
-    // console.log(area);
-    // console.log("areaa");
 }
 
 calculateAreaBtn.addEventListener('click', calculateArea);
