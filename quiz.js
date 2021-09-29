@@ -9,13 +9,19 @@ function calculateScore() {
     let score = 0;
     let index = 0;
     const formResult = new FormData(quizForm);
+    let total = 0;
     for(let value of formResult.values()) {
+        total = total + 1;
         if(value === correctAnswers[index]) {
             score = score + 1;
         } 
             index = index + 1;
+    } if(total === 7) {
+        outputDiv.innerText = "Your score is " + score;
     }
-    outputDiv.innerText = "Your score is " + score;
+    else {
+        outputDiv.innerText = "please select all answers"
+    }
 }
 
 submitButton.addEventListener("click", calculateScore)
