@@ -21,5 +21,4 @@ function calculateHypotenuse() {
     }   
 }
     
-
 hypotenuseBtn.addEventListener('click', calculateHypotenuse)
